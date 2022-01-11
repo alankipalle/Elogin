@@ -133,7 +133,7 @@
 	function onLogin(identity) {
 		alert(JSON.stringify(identity));
 		
-		var targetDiv = document.querySelector(SFIDWidget.config.target);	
+		/*var targetDiv = document.querySelector(SFIDWidget.config.target);	
 		
 		var avatar = document.createElement('a'); 
 	 	avatar.href = "javascript:showIdentityOverlay();";
@@ -167,7 +167,7 @@
 
 		var chemex = document.getElementById("chemex_link");
 		chemex.href = "/datasheets/2014_ChemexBrewGuide.pdf";
-		chemex.innerHTML = 'Datasheet';
+		chemex.innerHTML = 'Datasheet';*/
 		
 	}
 	
