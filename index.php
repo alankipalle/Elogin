@@ -131,6 +131,7 @@
 
 
 	function onLogin(identity) {
+		alert(JSON.stringify(identity));
 		
 		var targetDiv = document.querySelector(SFIDWidget.config.target);	
 		
